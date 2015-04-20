@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">NALP</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="help">Click on a cell to change its color.     To win, you have to color each cell so that no adjacent cells are the same color.</string>
+    <string name="ok">Ok !</string>
+    <string name="cancel">Cancel</string>
+    <string name="action_settings">Help ?</string>
+    <string name="title_activity_game">NALP</string>
+</resources>

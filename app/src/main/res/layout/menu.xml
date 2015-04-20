@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:weightSum="100">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="25"
+        android:weightSum="100">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="N"
+            android:id="@+id/textView0"
+            android:layout_gravity="center_horizontal"
+            android:textSize="150dp"
+            android:textColor="#ff8cc63f"
+            android:shadowColor="#ff000000"
+            android:textIsSelectable="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="A"
+            android:id="@+id/textView1"
+            android:layout_gravity="center_horizontal"
+            android:textSize="150dp"
+            android:textColor="#ff26aae1"
+            android:shadowColor="#ff000000"
+            android:textIsSelectable="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="L"
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal"
+            android:textSize="150dp"
+            android:textColor="#ffed048d"
+            android:textIsSelectable="false"
+            android:shadowColor="#ff000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="P"
+            android:id="@+id/textView3"
+            android:layout_gravity="center_horizontal"
+            android:textSize="150dp"
+            android:textColor="#fff7941d"
+            android:longClickable="false"
+            android:linksClickable="false"
+            android:shadowColor="#ff000000"
+            android:textIsSelectable="false" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:text="Easy"
+        android:id="@+id/button_easy"
+        android:layout_gravity="center_horizontal"
+        android:alpha="0.75"
+        android:textSize="30dp"
+        android:background="#fff6d5fd"
+        android:shadowColor="#ff643787" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:text="Medium"
+        android:id="@+id/button_medium"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        android:alpha="0.75"
+        android:background="#fff6d5fd"
+        android:shadowColor="#ff643787" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:text="Hard"
+        android:id="@+id/button_hard"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        android:alpha="0.75"
+        android:background="#fff7d2ff"
+        android:shadowColor="#ff643787" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:text="Score"
+        android:id="@+id/button_score"
+        android:layout_gravity="center_horizontal"
+        android:alpha="0.75"
+        android:textSize="30dp"
+        android:background="#fff6d5fd"
+        android:shadowColor="#ff643787" />
+
+
+</LinearLayout>
